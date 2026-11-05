@@ -94,17 +94,24 @@ Linked-data contexts for the provider's vocabulary.
 
 - [Citestamp Com Context](https://apis.io/jsonld/citestamp-com/citestamp-com-context/)
 
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Citestamp Com Openapi Overlay](https://apis.io/overlays/citestamp-com/citestamp-com-openapi-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
 
 - [CiteStamp API Rules](https://apis.io/rules/citestamp-com/citestamp-com-rules/)
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
 - [Citestamp Com Domain Security](https://apis.io/security/citestamp-com/citestamp-com-domain-security/)
+- [Citestamp Com Vulnerability Disclosure](https://apis.io/security/citestamp-com/citestamp-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
@@ -117,25 +124,30 @@ Published plans, tiers and prices.
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://citestamp.com/)
+- [Documentation](https://citestamp.com/how-it-works)
+- [Getting started](https://citestamp.com/ground)
+- [API reference](https://citestamp.com/for-ai)
 - [Pricing](https://citestamp.com/pricing)
+- [Support](https://citestamp.com/about)
+- [Security](https://citestamp.com/.well-known/security.txt)
 - [Terms of service](https://citestamp.com/terms)
 - [Privacy policy](https://citestamp.com/privacy)
 - [GitHub](https://github.com/citestamp)
 
 ## API Evangelist rating
 
-**Kin Score 37.0** — thin · rubric 0.25.0 · scored 2026-11-04
+**Kin Score 40.3** — developing · rubric 0.27.0 · scored 2026-11-05
 
 | Facet | Score |
 |---|---|
-| Discoverability | 58.9 |
-| Contract quality | 43.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 5.3 |
-| Developer ergonomics | 0.0 |
-| Access clarity | 50.5 |
+| Discoverability | 75.9 |
+| Contract quality | 18.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 61.9 |
+| Access clarity | 50.0 |
 
-**Agent readiness 17.8** — agent-aware
+**Agent readiness 25.6** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -143,14 +155,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | — |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -160,8 +172,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
 
-**Regulatory alignment 18.6** — Education & Research
+**Regulatory alignment 26.5** — Education & Research
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/citestamp-com/](https://apis.io/providers/citestamp-com/).
 
